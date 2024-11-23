@@ -21,3 +21,8 @@ vim.o.expandtab = true
 vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 vim.o.wrap = true
+vim.o.autoindent = true
+vim.o.smartindent = false
+vim.o.cindent = false
+
+vim.lsp.set_log_level("off")
