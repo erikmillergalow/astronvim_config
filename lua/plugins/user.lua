@@ -38,12 +38,19 @@ return {
   -- },
 
   -- You can disable default plugins as follows:
+      {
+          'windwp/nvim-autopairs',
+          event = "InsertEnter",
+          config = true
+          -- use opts = {} for passing setup options
+          -- this is equivalent to setup({}) function
+      }
   -- { "max397574/better-escape.nvim", enabled = false },
-  { "NMAC427/guess-indent", enabled = false },
-  {
-    'vidocqh/auto-indent.nvim',
-    opts = {},
-  },
+  -- { "NMAC427/guess-indent", enabled = false },
+  -- {
+  --   'vidocqh/auto-indent.nvim',
+  --   opts = {},
+  -- },
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   -- {
   --   "L3MON4D3/LuaSnip",

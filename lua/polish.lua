@@ -27,5 +27,6 @@ vim.o.cindent = false
 
 vim.g.html_indent_script1 = "inc"
 vim.g.html_indent_style1 = "inc"
+vim.g.html_indent_attribute = 1
 
 vim.lsp.set_log_level("off")
